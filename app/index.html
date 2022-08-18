@@ -10,11 +10,11 @@
   <title>Web3Space Transaction Explorer</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="./styles/style.css">
-    <link rel="stylesheet" href="./styles/main.css">
+  <link rel="stylesheet" href="/app/styles/style.css">
+    <link rel="stylesheet" href="/app/styles/main.css">
 </head>
 <body class="dark">
-  
+
 <nav class="navbar navbar-fixed-top">
     <div class="container">
 
@@ -30,7 +30,7 @@
 	<button class="navbar-toggler" type="button" id="button_open_menu">
       <span class="navbar-toggler-icon"></span>
     </button>
-	
+
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav mr-auto">
         <li class="nav-divider"></li>
@@ -43,7 +43,7 @@
           </a>
         </li>
       </ul>
-      
+
       <ul class="nav navbar-nav navbar-right">
             <form  name="search_form" ng-controller="searchCtrl" ng-submit="processRequest()"  class="navbar-form">
             <div class="input-group">
@@ -54,7 +54,7 @@
             </div>
             </form>
       </ul>
-      
+
     </div>
   </nav>
 
@@ -83,13 +83,13 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 <!--Core-->
-  <script src="app.js"></script>
+  <script src="/app/app.js"></script>
 
 <!--Controllers-->
-  <script src="scripts/controllers/mainController.js"></script>
-  <script src="scripts/controllers/addressInfoController.js"></script>
-  <script src="scripts/controllers/blockInfosController.js"></script>
-  <script src="scripts/controllers/transactionInfosController.js"></script>
+  <script src="/app/scripts/controllers/mainController.js"></script>
+  <script src="/app/scripts/controllers/addressInfoController.js"></script>
+  <script src="/app/scripts/controllers/blockInfosController.js"></script>
+  <script src="/app/scripts/controllers/transactionInfosController.js"></script>
 
   <!--Services-->
     <div id="connectwarning" class="modal fade" role="dialog">
