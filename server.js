@@ -7,7 +7,7 @@ const cookieParser = require('cookie-parser');
 const path = require('path');
 
 const app = express();
-const server = app.listen(3000, function()
+const server = app.listen(80, function()
 {
     console.log();
     console.log(chalk.green('Listening on port', server.address().port));
